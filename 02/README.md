@@ -14,7 +14,9 @@ Roxs es la líder de un equipo de trabajo para una compañía que realiza Audito
 SOLUCION
 
 1.- Como no esta especificado si el usuario Roxs esta en el grupo sudoers, las respuestas la hare como si no lo fuese. Las medidas de seguridad son:
+    
     a) Verificar que ninguno de los usuario del equipo este en el grupo de sudoers, ya que si no lo esta, no le permitira ingresar al home de otra persona.
+    
     b) Verificar que Roxs sea la unica que tenga acceso a esa carpeta, tanto de escritura y lectura
 
 2.- Para ver los permisos del archivo, se debe ejecutar en la carpeta donde esta almacenado el mismo. Se ejecuta el comando "ls -l"
